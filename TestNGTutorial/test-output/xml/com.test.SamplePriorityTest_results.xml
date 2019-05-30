@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PriorityTest"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.011">
+  <properties />
+  
+  
+            <testcase name="fifthTest" time="0.001" classname="com.test.SamplePriorityTest" />
+                <testcase name="firstTest" time="0.007" classname="com.test.SamplePriorityTest" />
+                <testcase name="secondTest" time="0.001" classname="com.test.SamplePriorityTest" />
+                <testcase name="thirdTest" time="0.001" classname="com.test.SamplePriorityTest" />
+                <testcase name="forthTest" time="0.001" classname="com.test.SamplePriorityTest" />
+      
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ClassTest1"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="15.093">
+  <properties />
+  
+  
+            <testcase name="testLog" time="0.001" classname="com.test.LoginTest" />
+                <testcase name="testLog" time="0.006" classname="com.test.LoginTest" />
+                <testcase name="testLog" time="0.001" classname="com.test.LoginTest" />
+                <testcase name="loginFacebook" time="3.885" classname="com.test.LoginTest" />
+                <testcase name="loginFacebook" time="3.751" classname="com.test.LoginTest" />
+                <testcase name="loginFacebook" time="3.735" classname="com.test.LoginTest" />
+                <testcase name="testLog" time="0.000" classname="com.test.LoginTest" />
+                <testcase name="loginFacebook" time="3.714" classname="com.test.LoginTest" />
+      
+</testsuite>

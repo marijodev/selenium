@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30891" started-at="2018-11-30T22:15:54Z" finished-at="2018-11-30T22:16:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30891" started-at="2018-11-30T22:15:54Z" finished-at="2018-11-30T22:16:25Z">
+      <class name="com.test.LoginTest">
+        <test-method status="PASS" signature="invokeApplication()[pri:0, instance:com.test.LoginTest@458c1321]" name="invokeApplication" is-config="true" duration-ms="7861" started-at="2018-11-30T22:15:54Z" finished-at="2018-11-30T22:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApplication -->
+        <test-method status="PASS" signature="loginFacebook(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginTest@458c1321]" name="loginFacebook" duration-ms="6087" started-at="2018-11-30T22:16:02Z" data-provider="getData" finished-at="2018-11-30T22:16:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mariatest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFacebook -->
+        <test-method status="PASS" signature="loginFacebook(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginTest@458c1321]" name="loginFacebook" duration-ms="4959" started-at="2018-11-30T22:16:08Z" data-provider="getData" finished-at="2018-11-30T22:16:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mariatesttest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mariatest2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFacebook -->
+        <test-method status="PASS" signature="loginFacebook(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginTest@458c1321]" name="loginFacebook" duration-ms="4565" started-at="2018-11-30T22:16:13Z" data-provider="getData" finished-at="2018-11-30T22:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mariatesttest3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mariatest3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFacebook -->
+        <test-method status="PASS" signature="loginFacebook(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginTest@458c1321]" name="loginFacebook" duration-ms="4993" started-at="2018-11-30T22:16:18Z" data-provider="getData" finished-at="2018-11-30T22:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mariatesttest4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mariatest4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFacebook -->
+        <test-method status="PASS" signature="testLog(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginTest@458c1321]" name="testLog" duration-ms="2" started-at="2018-11-30T22:16:23Z" data-provider="getData" finished-at="2018-11-30T22:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mariatest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method status="PASS" signature="testLog(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginTest@458c1321]" name="testLog" duration-ms="2" started-at="2018-11-30T22:16:23Z" data-provider="getData" finished-at="2018-11-30T22:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mariatesttest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mariatest2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method status="PASS" signature="testLog(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginTest@458c1321]" name="testLog" duration-ms="1" started-at="2018-11-30T22:16:23Z" data-provider="getData" finished-at="2018-11-30T22:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mariatesttest3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mariatest3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method status="PASS" signature="testLog(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginTest@458c1321]" name="testLog" duration-ms="2" started-at="2018-11-30T22:16:23Z" data-provider="getData" finished-at="2018-11-30T22:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mariatesttest4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mariatest4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLog -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.test.LoginTest@458c1321]" name="closeApplication" is-config="true" duration-ms="2384" started-at="2018-11-30T22:16:23Z" finished-at="2018-11-30T22:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

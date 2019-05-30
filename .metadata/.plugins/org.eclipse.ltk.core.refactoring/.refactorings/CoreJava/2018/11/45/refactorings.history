@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Testing Automation Tools&apos; to &apos;CoreSelenium&apos;&#x0D;&#x0A;- Original project: &apos;CoreJava&apos;&#x0D;&#x0A;- Destination element: &apos;CoreSelenium&apos;&#x0D;&#x0A;- Original element: &apos;Testing Automation Tools&apos;" description="Copy file" destination="=CoreSelenium" element1="Testing Automation Tools" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1541802362492" units="0" version="1.0"/>
+</session>

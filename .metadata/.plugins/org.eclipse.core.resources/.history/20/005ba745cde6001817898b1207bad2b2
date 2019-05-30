@@ -1,0 +1,34 @@
+package com.test;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+public class AnnotaionsExecutionOrder {
+
+	@BeforeClass
+	public void firstMethod() {
+		System.out.println("In before class");
+	}
+	
+	@BeforeMethod
+	public void secondMethod() {
+		System.out.println("In before method");
+	}
+	
+	@BeforeSuite
+	public void thirdMethod() {
+		System.out.println("In before suite");
+	}
+	
+	@BeforeTest
+	public void forthMethod() {
+		System.out.println("In before test");
+	}
+	
+	@BeforeTest
+	public void fifthMethod() {
+		System.out.println("In test");
+	}
+}

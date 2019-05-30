@@ -1,0 +1,66 @@
+
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class dropDownExamples {
+
+	public static void main(String[] args) {
+		 WebDriver driver = new ChromeDriver();
+		 driver.get("http://www.wikipedia.org/");
+		// driver.findElement(By.xpath("//*[@id='searchLanguage']")).sendKeys("Easti");
+		 Select select = new Select( driver.findElement(By.xpath("//*[@id='searchLanguage']")));
+         //select.selectByVisibleText("Easti");
+		 select.selectByValue("hi"); //value on the html
+		
+		 System.out.println("--------Printing all dropdown values with select(specific dropdown)----------");
+		 List<WebElement> optionList= select.getOptions();
+		 System.out.println(optionList.size());
+		 
+		 for (int i=0; i<optionList.size(); i++)
+		 {
+			 System.out.println(optionList.get(i).getText());
+		 }
+		 
+		 
+		 System.out.println("--------Printing all dropdown values with tag----------");
+		 List<WebElement> optionTag=  driver.findElements(By.tagName("option"));
+         System.out.println(optionTag.size());
+		 
+		 for (int i=0; i<optionTag.size(); i++)
+		 {
+			 System.out.println(optionTag.get(i).getAttribute("lang"));
+		 }
+		 
+		 
+		 System.out.println("--------Printing all links----------");
+		 List<WebElement> links=  driver.findElements(By.tagName("a"));
+         System.out.println(links.size());
+		 
+		 for (int i=0; i<links.size(); i++)
+		 {
+			 System.out.println(links.get(i).getAttribute("href"));
+		 }	 
+	   	System.out.println("Total links are: " + links.size());
+		
+		
+		 System.out.println("--------Select a element within a block----------");
+		 WebElement block = driver.findElement(By.xpath("//*[@id='www-wikipedia-org']/div[12]"));
+         List<WebElement> linksBlock=  block.findElements(By.tagName("a"));
+         System.out.println(linksBlock.size());
+		 
+		 for (int i=0; i<linksBlock.size(); i++)
+		 {
+			 System.out.println(linksBlock.get(i).getAttribute("href"));
+		 }		 
+	  	 System.out.println("Total links are: " + links.size());
+
+	}
+
+}

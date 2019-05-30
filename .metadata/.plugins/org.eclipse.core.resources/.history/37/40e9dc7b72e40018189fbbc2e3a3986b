@@ -1,0 +1,30 @@
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+/* Selenium 3 is a merging of Selenium and WebDriver
+ * It includes a driver by each browser.
+ * The driver comunicates with the browser,
+ * using the  api(REST API PROTOCOL) with the browser(internal classes), 
+ */
+public class FirefoxSelenium3 {
+public static void main(String[] args) {
+	//System.setProperty("webdriver.gecko.driver","C:\\Users\\Maria  Jose Araya\\Desktop\\Selenium\\drivers\\geckodriver-v0.23.0-win64\\geckodriver.exe");
+	//FirefoxDriver driver = new FirefoxDriver();
+	//driver.get("http://www.gmail.com");\
+	
+	 System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
+
+	 DesiredCapabilities capabilities = new DesiredCapabilities();
+	 capabilities = DesiredCapabilities.firefox();
+	 capabilities.setBrowserName("firefox");
+	 capabilities.setVersion("your firefox version");
+	 capabilities.setPlatform(Platform.WINDOWS);
+	 capabilities.setCapability("marionette", false);
+
+	 WebDriver driver = new FirefoxDriver(capabilities);
+
+	 driver.get("https://maps.mapmyindia.com");
+    
+}
+}

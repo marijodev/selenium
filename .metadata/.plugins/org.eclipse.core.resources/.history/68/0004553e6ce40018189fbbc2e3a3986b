@@ -1,0 +1,18 @@
+
+public class CalculatorController {
+	
+	private CalculatorView theView;
+	private CalculatorModel theModel;
+	
+	public CalculatorController (CalculatorView theView, CalcualtedModel theModel) 
+	{
+	 this.theView= theView;
+	 this.theModel = theModel;
+	 
+	 this.theView.addCalculationListener(new CalculateListener());
+	}
+ 
+	class CalculateListener implements ActionListener
+	{}
+
+}

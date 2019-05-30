@@ -1,0 +1,10 @@
+XPATH
+
+//input[@name ='identifier'][@autocapitalize='none'] = you can add all the conditions required.
+
+//*[starts-with(@id,'identi')]
+//*[contains(@id,'entif')]
+//*[contains(text(),'Country')]
+
+
+
